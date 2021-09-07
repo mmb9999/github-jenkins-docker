@@ -1,7 +1,7 @@
 pipeline {
 	environment {
 		registry = "mahesh9999/github-docker-jenkins"
-		registryCredential = 'dockerhub'
+		registryCredential = 'mahesh9999'
 		dockerImage = ''
 		dockerRunCommand = 'docker run -d -p 8080:8080 -name myapp chakilams3/github-jenkins-docker'
 	}
